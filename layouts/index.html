@@ -463,6 +463,7 @@
 
       <main id="menu">
         {{ range $p.sections }}
+          {{ $sectionId := .id }}
           <section class="section" data-section="{{ .id }}">
             <div class="section-header">
               <div>
@@ -474,7 +475,7 @@
 
             <div class="grid">
               {{ range .items }}
-                <article class="card" data-name="{{ .name | lower }}" data-desc="{{ .desc | lower }}" data-section="{{ $.id }}">
+                <article class="card" data-name="{{ .name | lower }}" data-desc="{{ .desc | lower }}" data-section="{{ $sectionId }}">
                   <div class="card-inner">
                     <div class="thumb">
                       {{ if .image }}

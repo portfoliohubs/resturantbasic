@@ -63,14 +63,14 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
     name = "English Breakfast"
     desc = "Black tea, strong"
     price = 2.30
-    image = "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=80"
+    image = "https://unsplash.com/photos/a-close-up-of-a-cup-of-coffee-on-a-table-k04__tRp7PU"
     tags = ["hot"]
 
   [[params.sections.items]]
     name = "Mint Tea"
     desc = "Fresh and cooling"
     price = 2.40
-    image = "https://images.unsplash.com/photo-1542990253-0f0d0d0e43b9?auto=format&fit=crop&w=900&q=80"
+    image = "https://unsplash.com/photos/a-cup-of-tea-with-a-green-leaf-in-it-avqy2o8s2DA"
     tags = ["hot"]
 
 [[params.sections]]

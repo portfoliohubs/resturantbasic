@@ -1,0 +1,116 @@
+baseURL = "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/"
+languageCode = "en-us"
+title = "Cafe Menu"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
+
+[params]
+  cafeName = "Brew & Bites Cafe"
+  tagline = "Fresh coffee. Homemade bites."
+  currency = "USD"
+  address = "123 Main St, Your City"
+  phone = "+1 555 0100"
+  whatsapp = ""
+  email = "hello@example.com"
+  instagram = "https://instagram.com/yourcafe"
+  facebook = ""
+  googleMapsUrl = "https://maps.google.com/?q=Your+Cafe"
+
+  heroImage = "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1600&q=80"
+  logoImage = ""
+
+  openingHoursTitle = "Opening Hours"
+  openingHoursText = "Mon–Fri 8:00–22:00 | Sat–Sun 9:00–23:00"
+
+[[params.sections]]
+  id = "coffee"
+  title = "Coffee"
+  subtitle = "Hot & iced"
+
+  [[params.sections.items]]
+    name = "Espresso"
+    desc = "Rich and bold single shot"
+    price = 2.50
+    image = "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80"
+    tags = ["hot"]
+
+  [[params.sections.items]]
+    name = "Americano"
+    desc = "Espresso with hot water"
+    price = 3.00
+    image = "https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=900&q=80"
+    tags = ["hot"]
+
+  [[params.sections.items]]
+    name = "Cappuccino"
+    desc = "Espresso, steamed milk, foam"
+    price = 3.80
+    image = "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80"
+    tags = ["hot"]
+
+  [[params.sections.items]]
+    name = "Iced Latte"
+    desc = "Smooth espresso with cold milk"
+    price = 4.20
+    image = "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80"
+    tags = ["iced"]
+
+[[params.sections]]
+  id = "tea"
+  title = "Tea"
+  subtitle = "Classic & herbal"
+
+  [[params.sections.items]]
+    name = "English Breakfast"
+    desc = "Black tea, strong"
+    price = 2.30
+    image = "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=80"
+    tags = ["hot"]
+
+  [[params.sections.items]]
+    name = "Mint Tea"
+    desc = "Fresh and cooling"
+    price = 2.40
+    image = "https://images.unsplash.com/photo-1542990253-0f0d0d0e43b9?auto=format&fit=crop&w=900&q=80"
+    tags = ["hot"]
+
+[[params.sections]]
+  id = "dessert"
+  title = "Desserts"
+  subtitle = "Baked today"
+
+  [[params.sections.items]]
+    name = "Chocolate Brownie"
+    desc = "Fudgy, served warm"
+    price = 3.50
+    image = "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80"
+    tags = ["best-seller"]
+
+  [[params.sections.items]]
+    name = "Cheesecake"
+    desc = "Creamy, seasonal topping"
+    price = 4.50
+    image = "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80"
+    tags = []
+
+[[params.sections]]
+  id = "sandwiches"
+  title = "Sandwiches"
+  subtitle = "Freshly made"
+
+  [[params.sections.items]]
+    name = "Chicken Club"
+    desc = "Chicken, lettuce, tomato, house sauce"
+    price = 6.90
+    image = "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=80"
+    tags = ["popular"]
+
+  [[params.sections.items]]
+    name = "Veggie Panini"
+    desc = "Grilled vegetables, cheese"
+    price = 6.20
+    image = "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=900&q=80"
+    tags = ["veg"]
+
+[params.notice]
+  enabled = true
+  text = "Ask about today’s specials at the counter."
